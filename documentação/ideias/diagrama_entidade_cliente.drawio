@@ -1,9 +1,27 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="2M44Bz8UGk6qDKzF_dQ0">
-    <mxGraphModel>
+    <mxGraphModel dx="1332" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LylX9zbcLAFgVE6ZFsXF-1" value="Cliente (entidade genérica)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LylX9zbcLAFgVE6ZFsXF-2" value="id: &lt;font color=&quot;#666600&quot; style=&quot;&quot;&gt;&lt;i&gt;tipagem própria de sistema&lt;/i&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="LylX9zbcLAFgVE6ZFsXF-1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LylX9zbcLAFgVE6ZFsXF-3" value="nome: &lt;font color=&quot;#00cc00&quot;&gt;String&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="LylX9zbcLAFgVE6ZFsXF-1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LylX9zbcLAFgVE6ZFsXF-9" value="email: &lt;font color=&quot;#00cc00&quot;&gt;String&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="LylX9zbcLAFgVE6ZFsXF-1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LylX9zbcLAFgVE6ZFsXF-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Cliente&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Entidade com&amp;nbsp;&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#666600&quot;&gt;id&lt;/font&gt;&amp;nbsp;vinculado a outra tabela independente&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;(ou qualquer tipo de armazenamento específico como outra entidade)&lt;/i&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt; &lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;que contém&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="340" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LylX9zbcLAFgVE6ZFsXF-8" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="55" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
